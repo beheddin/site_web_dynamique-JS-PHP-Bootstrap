@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+    <!--navbar--> 
+    <nav class="row" aria-label="breadcrumb">        
+        <div class="col-1">
+            <a class="navbar-brand" href="index.php">
+                <img src="img/best-deal1.png" class="logoSupport" />
+            </a>
+        </div>
+        <div class="col">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.php">Page d'accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Support</li>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1>Customer Support</h1>
+                <form>  <!--form-->
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your e-mail adress">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Choose a Topic:</label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>Where's My Stuff?</option>
+                        <option>Managing Your Orders</option>
+                        <option>Account Settings & Payment Methods</option>
+                        <option>Returns & Refunds</option>
+                        <option>Other Topics</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Commentary:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-info">Send</button>
+                </form>
+            </div>
+
+                <div class="col-6">
+                    <div style="overflow:hidden;width: 500px;position: relative;">
+                        <iframe width="500" height="500" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=polytech%20internationale+(polytechnique%20internationale)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/it/">embedgooglemaps EN</a> & <a href="https://newyorkhoponhopoffbus.nl">new york bus tours | hop on hop off bus</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+                    </div>
+                    <br/>
+                </div>
+        </div>
+    </div>   
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>      
+</body>
+</html>

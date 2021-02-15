@@ -1,0 +1,92 @@
+/*search bar*/
+.form-control.mr-sm-2{
+    width:900px;
+}
+
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.logoSupport {
+    width: 70px;
+    height: auto;
+}
+
+.breadcrumb {
+    background-color: white;
+    font-size:20px;
+
+}
+
+
+.h3 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+
+.h5 {
+    color: black;
+}
+
+
+
+.carousel-control-prev-icon {
+    color:black;
+}
+
+.carousel-control-next-icon {
+    color:black;
+}
+
+
+/*sign-in button*/
+.fa-sign-in-alt {   
+    color:white;
+    font-size: 25px;
+}
+
+/*sign up button*/
+.fa-user {   
+    color:white;
+    font-size: 25px;
+}
+
+.text-decoration-none {
+    color: white;
+}
+
+.rounded.float-left {
+    width: 300px;
+    height: auto;
+}
+.rounded.float-center {
+    width: 300px;
+    height: auto;
+}
+.rounded.float-right {
+    width: 300px;
+    height: auto;
+}
+
+.text-decoration-none {
+    color:#343A40;
+}
+
+
+#footer {
+    text-align: center;
+    /*border-top-style: solid; 
+    border-top-width: thin;*/
+}
+
+#element {
+    display: inline-block;
+    /*display: flex;
+    /*align-items: center;*/
+}
