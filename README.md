@@ -23,14 +23,14 @@ http://doc.ubuntu-fr.org/phpmyadmin
 
 have fun ;) en cas de soucis, n'hésitez pas à me posez vos questions dans l'onglet de discussions!
 
-preview 1:
+apercu 1:
 ![e_commerce_website-1](https://user-images.githubusercontent.com/72648203/108034118-55344a80-7035-11eb-8e79-1e9745bbcb2a.png)
 
-preview 2:
+apercu 2:
 ![e_commerce_website-2](https://user-images.githubusercontent.com/72648203/108034121-56fe0e00-7035-11eb-8747-6f215421f473.png)
 
-preview 3:
+apercu 3:
 ![e_commerce_website-3](https://user-images.githubusercontent.com/72648203/108034124-5796a480-7035-11eb-8314-2f55c9f13431.png)
 
-preview 4:
+apercu 4:
 ![e_commerce_website-4](https://user-images.githubusercontent.com/72648203/108034128-5796a480-7035-11eb-9864-63530f84ee78.png)
