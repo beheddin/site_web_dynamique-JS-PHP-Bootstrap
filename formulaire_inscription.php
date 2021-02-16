@@ -101,6 +101,12 @@ if(isset($_POST['formregister'])){
 <!--Formulaire d'inscription-->
 <div class="container">
 	<div class="row">
+		<div  class="col text-center">
+			<h4>Sign in page</h4>
+		</div>
+	</div>
+	<br/>
+	<div class="row">
 		<div class="col-6" id="link-form">
       		<a href="formulaire_connexion.php" id="link"><i class="fas fa-arrow-left"></i> Formulaire de connexion</a>
     	</div>
@@ -124,7 +130,7 @@ if(isset($_POST['formregister'])){
 <footer>
     <div id="footer">
         <div id="element">
-            <h5>Follow us</h5>
+            <h6>Follow us</h6>
         </div>
 
         <div id="element">
