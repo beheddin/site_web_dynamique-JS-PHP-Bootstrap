@@ -83,6 +83,12 @@ if(isset($_POST['login'])){
 <!--Formulaire de connexion-->
 <div class="container">
 	<div class="row">
+			<div  class="col text-center">
+				<h4>Login page</h4>
+		</div>
+	</div>
+	<br/>
+	<div class="row">
 	  <div  class="col-6">
 	  	<h5>Formulaire de connexion:</h5>
 			<form class="form" method="post">
@@ -106,7 +112,7 @@ if(isset($_POST['login'])){
 <footer>
   <div id="footer">
     <div id="element">
-      <h5>Follow us</h5>
+      <h6>Follow us</h6>
     </div>
 
     <div id="element">
