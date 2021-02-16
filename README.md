@@ -19,14 +19,16 @@ http://doc.ubuntu-fr.org/phpmyadmin
 4. placer le contenu du dossier que vous avez créé, sous le répertoire "/var/www/html/" (répertoire racine du serveur HTTP Apache).
 5. lancer "phpMyAdmin" dans votre navigateur web et entrer vos identifiants MySQL (nom d'utilisateur et mot de passe).
 dans mon cas c'est "root" pour le nom d'utilisateur et encore "root" pour le mot de passe.
+
+7. une fois dans "phpMyAdmin", importer le fichier de la base de données "mon_site_web_dynamique.sql".
+si vous decider de créer une nouvelle base de données, il faudra changer le nom de la base de données dans le fichier "database.php".    
+
+8. s'enregistrer sur le site:
 si vous avez des identifiants differents, il faudra allez dans le fichier "database.php" et effectuer quelques changements (USER, PASS):
 define('HOST','localhost');
 define('DB_NAME','mon_site_web_dynamique');   //mon_site_web_dynamique: nom de la base de données   
 define('USER','root');  //root: votre nom d'utilisateur MySQL
 define('PASS','root');  //root: votre mot de passe MySQL
-
-7. une fois dans "phpMyAdmin", importer le fichier de la base de données   "mon_site_web_dynamique.sql".
-si vous decider de créer une nouvelle base de données, il faudra changer le nom de la base de données dans le fichier "database.php".    
 
 have fun ;) en cas de soucis, n'hésitez pas à me posez vos questions dans l'onglet de discussions!
 
@@ -41,3 +43,6 @@ apercu 3:
 
 apercu 4:
 ![e_commerce_website-4](https://user-images.githubusercontent.com/72648203/108034128-5796a480-7035-11eb-9864-63530f84ee78.png)
+
+apercu 5:
+![e_commerce_website-5](https://user-images.githubusercontent.com/72648203/108111815-86446780-7095-11eb-8d26-7b59d0c286b9.png)
