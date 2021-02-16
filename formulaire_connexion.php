@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulaire de connexion</title>
+	<title>Login form</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
@@ -54,30 +54,31 @@ if(isset($_POST['login'])){
 	<!--navbar-->
     <nav class="row" aria-label="breadcrumb">
 
-        <!--Page d'accueil-->
-        <div class="col-sm-1">
-            <a class="navbar-brand" href="index.php">
-                <img src="img/best-deal1.png" class="logoSupport"/>
-            </a>
-        </div>
+      <!--Page d'accueil-->
+      <div class="col-sm-1">
+          <a class="navbar-brand" href="index.php">
+              <img src="img/best-deal1.png" class="logoSupport"/>
+          </a>
+      </div>
 
-        <!--breadcrumb-->
-        <div class="col-sm-4">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                	<a href="index.php">Page d'accueil</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">Formulaire de connexion</li>
-            </ol>
-        </div>
+      <!--breadcrumb-->
+      <div class="col-sm-3">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="index.php">Home page</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Login form</li>
+          </ol>
+      </div>
 
-        <div class="col-sm-6">
-        </div>	
-
-        <!--Support-->
-		<div class="col-sm-1">		
-			<a class="btn btn-primary" href="support.html" role="button">Support</a>
-		</div>
+      <div class="col"></div>	
+      
+      <div class="col-sm-2 text-center">
+        <!--lien vers ma page GitHub-->   
+        <a type="button" class="btn btn-outline-info" href="https://github.com/BahaeddinBehi">My GitHub</a>
+        <!--Page de support-->
+        <a class="btn btn-primary" href="support.html" role="button">Support</a>
+      </div>
 	</nav>
 
 <!--Formulaire de connexion-->
@@ -90,16 +91,16 @@ if(isset($_POST['login'])){
 	<br/>
 	<div class="row">
 	  <div  class="col-6">
-	  	<h5>Formulaire de connexion:</h5>
+	  	<h5>Login form:</h5>
 			<form class="form" method="post">
-				<input type="email" name="email" id="email" placeholder="Entrez votre email" required><br/>
-				<input type="password" name="password" id="password" placeholder="Entrez votre mot de passe" required><br/>
-				<input type="submit" name="login" id="login" value="Se connecter">
+				<input type="email" name="email" id="email" placeholder="Enter your email" required><br/>
+				<input type="password" name="password" id="password" placeholder="Enter your password" required><br/>
+				<input type="submit" name="login" id="login" value="Login">
 			</form>
 	  </div>
 
     <div class="col-6" id="link-form">
-      <a href="formulaire_inscription.php" id="link">Formulaire d'inscription <i class="fas fa-arrow-right"></i></a>
+      <a href="formulaire_inscription.php" id="link">Sign in form <i class="fas fa-arrow-right"></i></a>
     </div>
 	</div>
 </div>

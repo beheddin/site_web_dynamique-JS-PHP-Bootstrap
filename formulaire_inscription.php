@@ -75,25 +75,26 @@ if(isset($_POST['formregister'])){
     <nav class="row" aria-label="breadcrumb">
 
         <!--Page d'accueil-->
-        <div class="col-1">
+        <div class="col-sm-1">
             <a class="navbar-brand" href="index.php">
                 <img src="img/best-deal1.png" class="logoSupport" />
             </a>
         </div>
 
         <!--breadcrumb-->
-        <div class="col-4">
+        <div class="col-sm-3">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.php">Page d'accueil</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Formulaire d'inscription</li>
+                <li class="breadcrumb-item"><a href="index.php">Home page</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sign in form</li>
             </ol>
         </div>
 
-        <div class="col-6">
-        </div>	
-
-        <!--Support-->
-		<div class="col-1">		
+        <div class="col"></div>
+        
+		<div class="col-sm-2 text-center">
+			<!--lien vers ma page GitHub-->   
+			<a type="button" class="btn btn-outline-info" href="https://github.com/BahaeddinBehi">My GitHub</a>
+			<!--Page de support-->
 			<a class="btn btn-primary" href="support.html" role="button">Support</a>
 		</div>
 	</nav>
@@ -108,16 +109,16 @@ if(isset($_POST['formregister'])){
 	<br/>
 	<div class="row">
 		<div class="col-6" id="link-form">
-      		<a href="formulaire_connexion.php" id="link"><i class="fas fa-arrow-left"></i> Formulaire de connexion</a>
+      		<a href="formulaire_connexion.php" id="link"><i class="fas fa-arrow-left"></i>Login form</a>
     	</div>
 
 	    <div  class="col-6">
-			<h5>Formulaire d'inscription:</h5>
+			<h5>Sign in form:</h5>
 			<form class="form" method="post">
-				<input type="email" name="email" id="email" placeholder="Entrez votre email" required><br/>
-				<input type="password" name="password" id="password" size="30" placeholder="Entrez votre mot de passe" required><br/>
-				<input type="password" name="confirmed_password" id="confirmed_password" size="30" placeholder="Entrez de nouveau votre mot de passe" required><br/>
-				<input type="submit" name="formregister" id="formregister" value="S'inscrire">
+				<input type="email" name="email" id="email" placeholder="Enter your email" required><br/>
+				<input type="password" name="password" id="password" size="30" placeholder="Enter your password" required><br/>
+				<input type="password" name="confirmed_password" id="confirmed_password" size="30" placeholder="Enter your password again" required><br/>
+				<input type="submit" name="formregister" id="formregister" value="Sign in">
 			</form>
 	    </div>
 	</div>

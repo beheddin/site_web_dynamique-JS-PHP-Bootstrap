@@ -66,12 +66,12 @@
             </div>
 
             <div class="col-sm-3 text-right">
-                <a type="button" class="btn btn-outline-info" href="">My GitHub</a>
+                <!--lien vers ma page GitHub-->   
+                <a type="button" class="btn btn-outline-info" href="https://github.com/BahaeddinBehi">My GitHub</a>
                 <!--sign-in button-->   
                 <button type="button" class="btn btn-link " data-toggle="modal" data-target="#modalSignIn"> 
                     <a href="formulaire_connexion.php"><i class="fas fa-sign-in-alt"></i></a>
                 </button>
-
                 <!--sign-up button-->
                 <button type="button" class="btn btn-link">
                     <a href="formulaire_inscription.php"><i class="fas fa-user"></i></a>
@@ -384,7 +384,7 @@
 <footer>
   <div id="footer">
     <div id="element">
-      <h5>Follow us</h5>
+      <h6>Follow us</h6>
     </div>
 
     <div id="element">
